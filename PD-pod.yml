@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: pod-pvc2
+ name: pod-pvc
 spec:
  containers:
   - image: nginx
-    name: c2
+    name: c1
     volumeMounts:
      - mountPath: "/data"
        name: my-volume
